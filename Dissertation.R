@@ -443,7 +443,7 @@ res8<-res_ret(ret8)
 res8                                     #==============residuals series of nifty50=================#
 
 plot(ret_nifty50)                     #==============time series plot for close price of nifty50==============#  
-plot(ret8)                            #==============time series plot for log-return series of nifty50=============#                            #==============histogram plot of log-return series==============#
+plot(ret8)                            #==============time series plot for log-return series of nifty50=============#                            
 hist(res8)                            #==============histogram plot of residuals series===============#
 qqnorm(res8)                          #==============q-q plot of residuals series============#
 
